@@ -1,6 +1,6 @@
 # npmtest-sync-exec
 
-#### test coverage for  [sync-exec (v0.6.2)](https://github.com/gvarsanyi/sync-exec)  [![npm package](https://img.shields.io/npm/v/npmtest-sync-exec.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sync-exec) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sync-exec.svg)](https://travis-ci.org/npmtest/node-npmtest-sync-exec)
+#### basic test coverage for  [sync-exec (v0.6.2)](https://github.com/gvarsanyi/sync-exec)  [![npm package](https://img.shields.io/npm/v/npmtest-sync-exec.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sync-exec) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sync-exec.svg)](https://travis-ci.org/npmtest/node-npmtest-sync-exec)
 
 #### Synchronous exec with status code support. Requires no external dependencies, no need for node-gyp compilations etc.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sync-exec/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sync-exec/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sync-exec/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sync-exec/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sync-exec/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sync-exec/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sync-exec/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sync-exec/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sync-exec/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sync-exec/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sync-exec/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sync-exec/build/coverage.html/index.html)
 
@@ -78,7 +78,8 @@
     "scripts": {
         "test": "make test"
     },
-    "version": "0.6.2"
+    "version": "0.6.2",
+    "bin": {}
 }
 ```
 
